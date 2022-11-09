@@ -9,7 +9,7 @@ public class Main {
     public static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        convertUsd();
+        readingNumber();
     }
 
     public static void getMonth() {
@@ -121,21 +121,29 @@ public class Main {
     }
 //    Ứng dụng đọc số thành chữ
     public static void readingNumber (){
-
-        String [] unit = {"One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Eleven","Twelve","Thirdteen","Fourteen","FiveTeen","Sixteen","Seventeen","Eighteen","Nineteen"};
-        String [] ten = {"","","Twenty","Thirdty","Forty","Fifty","Sixty","Seventy","Eighty","Ninety"};
-
         int n;
-
         System.out.println("Nhap n:");
         n=scanner.nextInt();
-        if (n==0) {
-            return ("zero");
+        System.out.println(convert(n));
+
+    }
+
+    public static String[] unit = {"Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Eleven","Twelve","Thirdteen","Fourteen","FiveTeen","Sixteen","Seventeen","Eighteen","Nineteen"};
+    public static String [] tens = {"","","Twenty","Thirdty","Forty","Fifty","Sixty","Seventy","Eighty","Ninety"};
+    public static String convert ( int n){
+        if (n<0){
+            return "Subtraction" + convert(-n);
         }
-
-
-
-
+        if (n<20){
+            return unit[n];
+        }
+        if (n<100){
+            return tens[n/10]+unit[n%10];
+        }
+        if (n<1000){
+            return unit[n/100]+"Hundred"+convert(n%100);
+        }
+        return "";
     }
 //    Ứng dụng chuyển đổi tiền
     public  static void convertUsd () {
@@ -155,8 +163,14 @@ public class Main {
             }
         } while (usd<0||usd>10000);
     }
+//    kiem tra so chan
+
+
+
 
     }
+
+
 
 
 
