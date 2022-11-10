@@ -7,7 +7,69 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        addElement();
+        findValueMin();
+    }
+//    Tìm giá trị nhỏ nhất trong mảng
+    public static void findValueMin (){
+        int[] array = creatArrayInt(5);
+        int min = array[0];
+        for (int i=0;i<array.length;i++){
+            if (min >array[i]){
+                min = array[i];
+            }
+        }
+        System.out.println("Value min is:"+min);
+    }
+//    Tìm phần tử lớn nhất trong mảng hai chiều
+    public static void findMaxElement (){
+        System.out.println("Enter your row:");
+        int row = Integer.parseInt(scanner.nextLine());
+        System.out.println("Enter your column:");
+        int column = Integer.parseInt(scanner.nextLine());
+        int [][] matrix = new int[row][column];
+        for (int i=0;i<row;i++){
+            for (int j=0;j<column;j++){
+                System.out.println("a["+i+"]"+"["+j+"]=");
+                matrix[i][j]= Integer.parseInt(scanner.nextLine());
+            }
+        }
+        for (int i=0;i<row;i++){
+            for (int j=0;j<column;j++){
+                System.out.print(matrix[i][j]+" ");
+            }
+            System.out.println();
+        }
+
+        int max = matrix[0][0];
+        for (int i=0;i<row;i++) {
+            for (int j = 0; j < column; j++) {
+                if (max < matrix[i][j]){
+                    max = matrix[i][j];
+                    row =i;
+                    column = j;
+                }
+            }
+        }
+        System.out.println("Value max is:"+max+" row="+row+" column="+column);
+
+    }
+//    Gop mang
+    public static void combineArray (){
+        System.out.println("Enter value of array1");
+        int[] array1 = creatArrayInt(3);
+        System.out.println("Enter value of array2");
+        int[] array2 = creatArrayInt(4);
+        int[] array3 = new int[7];
+        int j = 0;
+        for(int i=0;i<array1.length;i++){
+            array3[j]=array1[i];
+            j++;
+        }
+       for (int i=0;i<array2.length;i++){
+           array3[j]=array2[i];
+           j++;
+       }
+        System.out.println(Arrays.toString(array3));
     }
 //    remove element from array
     public static void removeElement (){
