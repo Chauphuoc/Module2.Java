@@ -7,7 +7,33 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        checkMinValue();
+        removeElement();
+    }
+//    remove element from array
+    public static void removeElement (){
+        int[] array = creatArrayInt(5);
+        System.out.println("Enter your value:");
+        int n = Integer.parseInt(scanner.nextLine());
+        int index = index_del(array,n);
+        for (int i=index; i<array.length;i++){
+            if (i<array.length-1){
+                array[i]=array[i+1];
+            }
+            if (i==array.length-1){
+                array[i]=0;
+            }
+        }
+        System.out.println(Arrays.toString(array));
+    }
+    public static int index_del (int[] array,int n){
+        int index_del=-1;
+        for (int i=0;i<array.length;i++){
+            if(array[i]==n){
+                index_del = i;
+                break;
+            }
+        }
+        return index_del;
     }
 
     //    doi cho vi tri trong mang
@@ -46,7 +72,7 @@ public class Main {
         System.out.println(Arrays.toString(array));
     }
 
-    //    Tìm giá trị trong mảng loi element1 khong chay
+    //    Tìm giá trị trong mảng
     public static String[] creatArray(int size) {
 
         String[] array = new String[size];
