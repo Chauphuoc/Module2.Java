@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        removeElement();
+        addElement();
     }
 //    remove element from array
     public static void removeElement (){
@@ -35,7 +35,23 @@ public class Main {
         }
         return index_del;
     }
-
+//  add element into array
+    public static void addElement (){
+        int[] array = creatArrayInt(5);
+        int n = array.length-1;
+        System.out.println("Enter your value:");
+        int value = Integer.parseInt(scanner.nextLine());
+        System.out.println("Enter your index:");
+        int index = Integer.parseInt(scanner.nextLine());
+        if (index<=-1&&index>array.length){
+            System.out.println("Error");
+        }
+        for (int i=n;i>index;i--){
+            array[i]=array[i-1];
+        }
+        array[index]=value;
+        System.out.println(Arrays.toString(array));
+    }
     //    doi cho vi tri trong mang
     public static void array1() {
         int size;
