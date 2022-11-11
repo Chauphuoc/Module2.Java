@@ -7,7 +7,113 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        findValueMin();
+        countWord();
+
+    }
+//    Đếm số lần xuất hiện của ký tự trong chuỗi
+    public static void countWord (){
+        String string;
+        System.out.println("Enter your string:");
+        string = scanner.nextLine();
+        System.out.println("Enter your word:");
+        char charactor = scanner.next().charAt(0);
+        int count = 0;
+        for (int i = 0; i<string.length();i++){
+            if (string.charAt(i)==charactor){
+                count++;
+            }
+        }
+        System.out.println("Charator "+charactor+" exist "+count+" times in this String " +string);
+    }
+//    Mảng hai chiều - tính tổng các số ở đường chéo chính của ma trận vuông
+    public static void sumMultipleMatrix (){
+        System.out.println("Enter your row;");
+        int row = Integer.parseInt(scanner.nextLine());
+        System.out.println("Enter your column");
+        int column=Integer.parseInt(scanner.nextLine());
+        int [][] matrix = creatTypingmatrix(row,column);
+        for (int i=0;i<row;i++){
+            for (int j=0;j<column;j++){
+                System.out.print(matrix[i][j]+" ");
+            }
+            System.out.println();
+        }
+        int sum = 0;
+        for (int i=0;i<row;i++){
+            for (int j=0;j<column;j++){
+                if (i==j){
+                    sum+=matrix[i][j];
+                }
+            }
+        }
+        System.out.println("Sum is:"+sum);
+    }
+
+    public static int [][] creatTypingmatrix (int row, int column){
+        int[][] matrix = new int[row][column];
+        for (int i=0;i<row;i++){
+            for (int j=0;j<column;j++){
+                System.out.println("a["+i+","+j+"]");
+                matrix[i][j]=Integer.parseInt(scanner.nextLine());
+            }
+        }
+        return matrix;
+    }
+//    Tính tổng các số ở một cột xác định
+    public static void sumColumn (){
+        int row;
+        int column;
+        System.out.println("Enter value of row:");
+        row = Integer.parseInt(scanner.nextLine());
+        System.out.println("Enter value of column:");
+        column = Integer.parseInt(scanner.nextLine());
+        int [][] matrix = creatMatrix(row,column);
+        for (int i=0;i<matrix.length;i++){
+            for (int j=0;j<matrix[i].length;j++){
+                System.out.printf(matrix[i][j]+" ");
+            }
+            System.out.println();
+        }
+
+        int n;
+        int sum = 0;
+        System.out.println("column what you choose:");
+        n = Integer.parseInt(scanner.nextLine());
+        for (int i=0;i<row;i++){
+            sum+= matrix[i][n];
+        }
+        System.out.println("sum is: "+sum);
+    }
+    public static int [][] creatMatrix (int row, int column ){
+        int [][] matrix = new  int [row] [column];
+        for (int i =0;i<row;i++){
+            for (int j=0;j<column;j++){
+                matrix[i][j]=(int)(Math.floor(Math.random()*30+1)) ;
+            }
+        }
+        return matrix;
+    }
+//    Ứng dụng đếm số lượng sinh viên thi đỗ
+    public static void countStudents (){
+        int size;
+        do {
+            System.out.println("Enter your size:");
+            size = Integer.parseInt(scanner.nextLine());
+            if (size>30){
+                System.out.println("Type again");
+            }
+        }
+        while (size>30);
+        int[] checkPoint = creatArrayInt(size);
+        int count = 0;
+        for (int i=0;i<checkPoint.length;i++){
+
+            if (checkPoint[i]>=5&&checkPoint[i]<=10){
+                count++;
+            }
+        }
+        System.out.print(Arrays.toString(checkPoint)+" "+"\n");
+        System.out.println("There are "+count+" student who passed exam");
     }
 //    Tìm giá trị nhỏ nhất trong mảng
     public static void findValueMin (){
