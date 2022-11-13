@@ -1,4 +1,5 @@
-package org.example;
+package Animals;
+
 
 public class Fan {
     public final int slow =1;

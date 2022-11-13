@@ -1,5 +1,6 @@
-package org.example;
-    public class SimpleCircle {
+package Animals;
+
+public class SimpleCircle {
        double radius;
 
        public SimpleCircle(double newRadius){
