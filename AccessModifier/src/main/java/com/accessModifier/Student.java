@@ -8,8 +8,8 @@ public class Student {
         this.rollno = r;
         this.name = name;
     }
-    public void change (String newCollege){
-        this.college = newCollege;
+    public static void change (String newCollege){
+        college = newCollege;
     }
     public void display (){
         System.out.println(rollno + " " + name + " " + college);
