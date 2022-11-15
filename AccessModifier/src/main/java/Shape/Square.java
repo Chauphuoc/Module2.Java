@@ -13,16 +13,17 @@ public class Square extends Rectangle{
     public double getSide() {
         return getWidth();
     }
-    public void setSide(double side) {
-        setWidth(side);
+    public void setSide (double side){
         setHeight(side);
+        setWidth(side);
     }
-    public void setWidth (double width){
-        setSide(width);
-    }
-    public void setHeight (double height){
-        setSide(height);
-    }
+
+//    public void setWidth (double width){
+//        setSide(width);
+//    }
+//    public void setHeight (double height){
+//        setSide(height);
+//    }
     public String toString (){
         return "A Square with side="+getSide()+", which is a subclass of"+ super.toString();
     }
@@ -35,6 +36,11 @@ public class Square extends Rectangle{
         System.out.println(square);
 //
         square = new Square("yellow", true,5.8);
+        System.out.println(square);
+
+        square = new Square("yellow", true,5.8);
+        square.setSide(8);
+        square.setColor("Orange");
         System.out.println(square);
     }
 }
