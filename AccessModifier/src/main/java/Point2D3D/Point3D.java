@@ -21,6 +21,7 @@ public class Point3D extends Point2D {
         this.z = z;
     }
     public void setXYZ (float x, float y, float z){
+
         this.array = new float[3];
         array[0]=x;
         array[1]=y;
@@ -31,7 +32,7 @@ public class Point3D extends Point2D {
         return array;
     }
     public String toString (){
-        return super.toString()+","+Arrays.toString(getXYZ());
+        return "Mang cha:"+ super.toString()+","+"Mang con"+Arrays.toString(getXYZ());
     }
 
     public static void main(String[] args) {
@@ -45,8 +46,6 @@ public class Point3D extends Point2D {
         Point3D exam1 = new Point3D(x,y,z);
         exam1.setXYZ(x,y,z);
         System.out.println(exam1.toString());
-
-
     }
 
 

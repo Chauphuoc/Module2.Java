@@ -33,6 +33,7 @@ public class Point2D {
         this.array = new float[2];
         array[0]=x;
         array[1]=y;
+
     }
     public float[] getXY (){
         return this.array;
