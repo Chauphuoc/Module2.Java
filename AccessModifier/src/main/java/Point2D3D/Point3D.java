@@ -21,15 +21,12 @@ public class Point3D extends Point2D {
         this.z = z;
     }
     public void setXYZ (float x, float y, float z){
-
-        this.array = new float[3];
-        array[0]=x;
-        array[1]=y;
-//       super.setXY(x,y);
-        array[2]=z;
+        super.setXY(x,y);
+        this.z =z;
     }
     public float[] getXYZ (){
-        return array;
+        float [] array2 = {getX(),getY(),z};
+        return array2;
     }
     public String toString (){
         return "Mang cha:"+ super.toString()+","+"Mang con"+Arrays.toString(getXYZ());
