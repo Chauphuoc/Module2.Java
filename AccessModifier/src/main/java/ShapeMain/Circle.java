@@ -1,4 +1,4 @@
-package Shape;
+package ShapeMain;
 
 public class Circle extends Shape {
     double radius;

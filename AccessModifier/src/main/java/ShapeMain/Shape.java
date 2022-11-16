@@ -1,8 +1,10 @@
-package Shape;
+package ShapeMain;
 
 public class Shape {
     String color;
     boolean filled;
+
+
     Shape (){
         color = "green";
         filled = true;
@@ -24,6 +26,6 @@ public class Shape {
         return this.filled;
     }
     public String toString (){
-        return  "A Shape with color of"+color +"and"+ "filled"+filled;
+        return  "A Shape with color of "+color +" and "+ "filled "+filled;
     }
 }

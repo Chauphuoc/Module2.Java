@@ -1,4 +1,4 @@
-package Shape;
+package ShapeMain;
 
 public class Square extends Rectangle{
 
