@@ -1,62 +1,80 @@
 package Comparable;
 
 public class Student implements Comparable<Student> {
-    private int ID;
+    private int idStudent;
     private String name;
-    private String classStudent;
-    private double avarage;
+    private String nameClass;
+    private double diemTrungBinh;
 
-    public Student(int ID, String name, String classStudent, double avarage) {
-        this.ID = ID;
+    public Student(int maSinhVien, String name, String nameClass, double diemTrungBinh) {
+        this.idStudent = maSinhVien;
         this.name = name;
-        this.classStudent = classStudent;
-        this.avarage = avarage;
+        this.nameClass = nameClass;
+        this.diemTrungBinh = diemTrungBinh;
     }
 
-    public int getID() {
-        return ID;
+    public int getMaSinhVien() {
+        return idStudent;
     }
 
-    public void setID(int ID) {
-        this.ID = ID;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getClassStudent() {
-        return classStudent;
-    }
-
-    public void setClassStudent(String classStudent) {
-        this.classStudent = classStudent;
-    }
-
-    public double getAvarage() {
-        return avarage;
-    }
-
-    public void setAvarage(double avarage) {
-        this.avarage = avarage;
+    public void setMaSinhVien(int maSinhVien) {
+        this.idStudent = maSinhVien;
     }
 
     public String getName() {
         return name;
     }
 
-    public String getLastName (){
-        String s =this.name.trim();
-        if(s.indexOf("")>=0){
-           int vt = s.lastIndexOf("")+1;
-           return s.substring(vt);
-        }
-        else {return s;}
+    public void setName(String name) {
+        this.name = name;
     }
+
+    public String getNameClass() {
+        return nameClass;
+    }
+
+    public void setNameClass(String nameClass) {
+        this.nameClass = nameClass;
+    }
+
+    public double getDiemTrungBinh() {
+        return diemTrungBinh;
+    }
+
+    public void setDiemTrungBinh(double diemTrungBinh) {
+        this.diemTrungBinh = diemTrungBinh;
+    }
+
+    public String getTen() {
+
+        String s = this.getName().trim();
+        if (s.indexOf(" ")>=0){
+            int index = s.lastIndexOf(" ");
+            return s.substring(index+1);
+        }
+        else return s;
+    }
+
     @Override
     public int compareTo(Student o) {
-        String nameThis =this.getLastName();
-        String name0 = o.getLastName();
-        return nameThis.compareTo(name0);
+        // <0
+        // =0
+        // >0
+        // Dua tren so sanh ten
+        // Ten: Adam, Barack Obama,     Nguyen Van A     , Tran Thi Thanh Yen
+        String tenThis = this.getTen();
+        String tenO=o.getTen();
+
+        return tenThis.compareTo(tenO);
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "idStudent=" + idStudent +
+                ", name='" + name + '\'' +
+                ", nameClass='" + nameClass + '\'' +
+                ", diemTrungBinh=" + diemTrungBinh +
+                '}'+"\n";
     }
 }
