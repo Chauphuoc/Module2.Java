@@ -58,14 +58,23 @@ public class Test {
         System.out.println("Check Resizeable");
         Geomatric[] exam1 = new Geomatric[3];
         exam1[0] = new Circle (4);
-        exam1[1] = new Circle(6);
+        exam1[1] = new Rectangle(4,9);
         exam1 [2] = new Circle(3);
         System.out.println(Arrays.toString(exam1));
         for (int i = 0;i <exam1.length;i++){
-            Circle test = (Circle) exam1[i];
-            int percent = (int) Math.floor(Math.random()*(100-1)+1);
-            test.resize(percent);
-            System.out.println(test.toString());
+            if (exam1[i] instanceof Circle){
+                Circle test = (Circle) exam1[i];
+                int percent = (int) Math.floor(Math.random()*(100-1)+1);
+                test.resize(percent);
+                System.out.println(test.toString());}
+            if (exam1[i] instanceof Rectangle){
+                Rectangle test = (Rectangle) exam1[i];
+                int percent = (int) Math.floor(Math.random()*(100-1)+1);
+                test.resize(percent);
+                System.out.println(test.toString());
+                test.howtoColor();
+                }
+            }
         }
     }
 //
@@ -88,4 +97,4 @@ public class Test {
 //        return arr;
 //    }
 
-}
+

@@ -1,6 +1,6 @@
 package AbstractAndInterface;
 
-public class Rectangle extends Geomatric implements Comparable<Rectangle>, Resizeable{
+public class Rectangle extends Geomatric implements Comparable<Rectangle>, Resizeable, Colorable{
     private double width;
     private double height;
     public Rectangle(){}
@@ -68,5 +68,10 @@ public class Rectangle extends Geomatric implements Comparable<Rectangle>, Resiz
         this.width = width * percent;
         this.height = height * percent;
         return percent;
+    }
+
+    @Override
+    public void howtoColor() {
+        System.out.println("Color are full side!");
     }
 }
