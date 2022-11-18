@@ -39,18 +39,34 @@ public class Test {
         circles[0]=new Circle(4);
         circles[1]=new Circle(7);
         circles[2]=new Circle(3);
+
         for (int i = 0;i< circles.length-1;i++){
             for (int j = i+1 ; j <circles.length;j++) {
                 Circle r1 = (Circle) circles[i];
                 Circle r2 = (Circle) circles[j];
+
                 if (r1.compareArea(r2)==1) {
                     Geomatric temp = circles[i];
                     circles[i] = circles[j];
                     circles[j] = temp;
+
                 }
             }
         }
         System.out.println(Arrays.toString(circles));
+        System.out.println();
+        System.out.println("Check Resizeable");
+        Geomatric[] exam1 = new Geomatric[3];
+        exam1[0] = new Circle (4);
+        exam1[1] = new Circle(6);
+        exam1 [2] = new Circle(3);
+        System.out.println(Arrays.toString(exam1));
+        for (int i = 0;i <exam1.length;i++){
+            Circle test = (Circle) exam1[i];
+            int percent = (int) Math.floor(Math.random()*(100-1)+1);
+            test.resize(percent);
+            System.out.println(test.toString());
+        }
     }
 //
 //

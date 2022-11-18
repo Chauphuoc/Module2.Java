@@ -1,6 +1,6 @@
 package AbstractAndInterface;
 
-public class Circle extends Geomatric implements Comparable<Circle> {
+public class Circle extends Geomatric implements Comparable<Circle> , Resizeable {
     private double radius;
     public Circle (){}
     public Circle (double radius){
@@ -40,5 +40,11 @@ public class Circle extends Geomatric implements Comparable<Circle> {
             return 0;
         }
         else {return -1;}
+    }
+
+    @Override
+    public double resize(double percent) {
+        this.radius = this.radius * percent;
+        return radius;
     }
 }

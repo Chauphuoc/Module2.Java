@@ -1,6 +1,6 @@
 package AbstractAndInterface;
 
-public class Rectangle extends Geomatric implements Comparable<Rectangle>{
+public class Rectangle extends Geomatric implements Comparable<Rectangle>, Resizeable{
     private double width;
     private double height;
     public Rectangle(){}
@@ -61,5 +61,12 @@ public class Rectangle extends Geomatric implements Comparable<Rectangle>{
             return 0;
         }
         else {return -1;}
+    }
+
+    @Override
+    public double resize(double percent) {
+        this.width = width * percent;
+        this.height = height * percent;
+        return percent;
     }
 }

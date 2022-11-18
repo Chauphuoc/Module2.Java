@@ -16,4 +16,8 @@ public abstract class Geomatric {
     }
     public abstract double getArea ();
     public abstract double getPerimeter ();
+
+    public double resize() {
+        return 0;
+    }
 }
