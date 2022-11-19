@@ -103,7 +103,6 @@ public class Store extends Customer {
     }
 
     public final double buying (){
-
         return this.cost = this.cost * this.quantity;
     }
 
