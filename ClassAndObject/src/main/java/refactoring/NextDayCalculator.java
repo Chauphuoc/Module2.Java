@@ -1,11 +1,13 @@
 package refactoring;
 
+import java.util.Calendar;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 public class NextDayCalculator {
-    public String nextdaycalculator (int day, int month, int year){
-        return String.format("Date: %s; Month: %s; Year: %s",day+1,month,year);
+    public String nextdaycalculator (Calendar x, int y){
+        x.add(Calendar.DATE,y);
+        return String.format("Date: %s; Month: %s; Year: %s",x.get(Calendar.DATE),x.get(Calendar.MONTH),x.get(Calendar.YEAR));
     }
 
     public static void main(String[] args) {
