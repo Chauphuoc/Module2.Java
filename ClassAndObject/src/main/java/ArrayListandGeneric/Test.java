@@ -30,6 +30,7 @@ public class Test {
                    System.out.println("Enter avarage score of Student:"); double averageStudent = Double.parseDouble(scanner.nextLine());
                    Student student = new Student(nameStudent,idStudent,yearStudent,averageStudent);
                    dssv.addStudent(student);
+
                    break;
                case 2:
                    dssv.printStudentList();

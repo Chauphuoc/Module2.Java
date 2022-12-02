@@ -16,6 +16,7 @@ public class StudentClass {
     }
     public void addStudent (Student student){
         this.arrayList.add(student);
+
     }
     public void printStudentList (){
         for (Student student: arrayList){
@@ -26,6 +27,7 @@ public class StudentClass {
         return this.arrayList.isEmpty();
     }
     public int quantity (){
+
         return this.arrayList.size();
     }
     public void makeEmpty (){

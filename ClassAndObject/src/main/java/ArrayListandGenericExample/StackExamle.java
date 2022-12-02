@@ -5,6 +5,8 @@ import java.util.Stack;
 
 public class StackExamle {
     public static void main(String[] args) {
+
+
         Scanner scanner = new Scanner(System.in);
         Stack<String>  stackChuoi = new Stack<>();
         System.out.println("Nhap vao chuoi");
