@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="58b58704-27ab-451d-b5d8-44853a9242eb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/src/main/java/ExampleIrhentance/Animals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/src/main/java/ExampleIrhentance/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/src/main/java/NestedClass/Nestedclass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/src/main/java/Point2D3D/MovablePoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/src/main/java/Point2D3D/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/src/main/java/Point2D3D/Point2D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/src/main/java/Point2D3D/Point3D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/src/main/java/ShapeMain/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/src/main/java/ShapeMain/Cylinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/src/main/java/ShapeMain/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/src/main/java/ShapeMain/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/src/main/java/ShapeMain/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/src/main/java/ShapeMain/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/src/main/java/com/Example/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/src/main/java/com/Example/Class.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/src/main/java/com/Example/Example1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/src/main/java/com/Example/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/src/main/java/com/Example/TestCircleRectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/src/main/java/com/Example/example2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/src/main/java/com/Example/example3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/src/main/java/com/accessModifier/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/src/main/java/com/accessModifier/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/src/main/java/com/accessModifier/ComparableJames" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/src/main/java/com/accessModifier/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/src/main/java/com/accessModifier/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/src/main/java/com/accessModifier/TestCircle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/src/main/java/sum/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/target/classes/ExampleIrhentance/Animals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/target/classes/ExampleIrhentance/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/target/classes/NestedClass/Nestedclass$InnerClassAA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/target/classes/NestedClass/Nestedclass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/target/classes/Point2D3D/MovablePoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/target/classes/Point2D3D/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/target/classes/Point2D3D/Point2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/target/classes/Point2D3D/Point3D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/target/classes/ShapeMain/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/target/classes/ShapeMain/Cylinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/target/classes/ShapeMain/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/target/classes/ShapeMain/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/target/classes/ShapeMain/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/target/classes/ShapeMain/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/target/classes/com/Example/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/target/classes/com/Example/Example1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/target/classes/com/Example/Geomatric.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/target/classes/com/Example/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/target/classes/com/Example/TestCircleRectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/target/classes/com/Example/example2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/target/classes/com/Example/example3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/target/classes/com/accessModifier/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/target/classes/com/accessModifier/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/target/classes/com/accessModifier/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/target/classes/com/accessModifier/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/target/classes/com/accessModifier/TestCircle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessModifier/target/classes/sum/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassAndObject/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../ClassAndObject/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassAndObject/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClassAndObject/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2.James/src/main/java/ComparableJames/InterfaceComparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2.James/src/main/java/ComparableJames/InterfaceComparable.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HNlCRR5VLQjDnTiTZyJOWDDEbJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Admin/IdeaProjects/Module2.Java/ClassAndObject/src/test/java/refactoring&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="refactoring" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AbstractAndInterface">
+    <configuration name="AbstractAndInterface" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AbstractAndInterface" />
+      <module name="ClassAndObject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Loop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Calculator" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="refactoring.Calculator" />
+      <module name="ClassAndObject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="refactoring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Calculator" />
+      <item itemvalue="Application.AbstractAndInterface" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58b58704-27ab-451d-b5d8-44853a9242eb" name="Changes" comment="" />
+      <created>1668133295753</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668133295753</updated>
+      <workItem from="1668133297279" duration="1882000" />
+      <workItem from="1668135563777" duration="7946000" />
+      <workItem from="1668155038898" duration="6951000" />
+      <workItem from="1668162069217" duration="71000" />
+      <workItem from="1668224811664" duration="1668000" />
+      <workItem from="1668248517841" duration="6459000" />
+      <workItem from="1668303521161" duration="659000" />
+      <workItem from="1668411290611" duration="452000" />
+      <workItem from="1668411768008" duration="2849000" />
+      <workItem from="1668583430696" duration="2874000" />
+      <workItem from="1668592946644" duration="1552000" />
+      <workItem from="1668603812277" duration="8395000" />
+      <workItem from="1668647197218" duration="19859000" />
+      <workItem from="1668692502932" duration="5839000" />
+      <workItem from="1668733093551" duration="2492000" />
+      <workItem from="1668736746717" duration="15907000" />
+      <workItem from="1668777676837" duration="10769000" />
+      <workItem from="1668847143026" duration="650000" />
+      <workItem from="1668867105067" duration="4918000" />
+      <workItem from="1668901514820" duration="21106000" />
+      <workItem from="1668992782928" duration="441000" />
+      <workItem from="1668993319192" duration="2336000" />
+      <workItem from="1669001811681" duration="235000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bookStoreManagement/Test.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
