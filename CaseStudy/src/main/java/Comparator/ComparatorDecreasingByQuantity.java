@@ -1,4 +1,4 @@
-package FeatureApp;
+package Comparator;
 
 import Model.Product;
 import Service.ProductService;

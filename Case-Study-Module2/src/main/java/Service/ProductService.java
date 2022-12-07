@@ -1,22 +1,37 @@
-package storemanagement;
+package FileService;
 
+import Comparator.ComparatorByDecreasingPrice;
+import Comparator.ComparatorByIncreasingPrice;
+import Model.ECategory;
+import Model.Product;
+
+import java.io.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
 public class ProductService {
     Scanner scanner = new Scanner(System.in);
     public List<Product> products;
-    public void initiate(){
-        products = new ArrayList<>();
-        products.add(new Product("IPhone7plus",1,8000000,1,1));
-        products.add(new Product("IPhone8plus",2,10000000,1,1));
-        products.add(new Product("IPhoneXs",3,8900000,1,1));
-        products.add(new Product("IPhone12Promax",4,14000000,1,1));
-        products.add(new Product("SamSung A5",5,9100000,1,2));
-        products.add(new Product("SamSung Galaxy Note 8",6,14500000,1,2));
-
+    public ProductService(){
+        File file = new File("C:\\Users\\Admin\\IdeaProjects\\Case-Study-Module2\\src\\main\\data\\Product.txt");
+        List<String> lines = new ArrayList<>();
+        try {
+            FileReader fileReader = new FileReader(file);
+            BufferedReader bufferedReader = new BufferedReader(fileReader);
+            String line="";
+            while ((line = bufferedReader.readLine())!=null){
+                lines.add(line);
+            }
+            bufferedReader.close();
+            fileReader.close();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
+
+
     public void addProduct(Product product){
         products.add(product);
     }

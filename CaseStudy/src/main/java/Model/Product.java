@@ -68,7 +68,7 @@ public class Product {
         if (category!=null){
             getNamBrand=category.getNameCategory();
         }
-        System.out.printf("%10s %20s %20s %10s %10s","ID","Name product","Price","Quantity","Type");
+
         return
                 String.format("%10s %20s %20s %10s %10s",this.idProduct,this.nameProduct,this.price,this.quantity,getNamBrand);
     }

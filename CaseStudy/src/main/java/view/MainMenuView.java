@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class MainMenuView {
     public static Scanner scanner = new Scanner(System.in);
-    ProductManagement productManagement = new ProductManagement();
+    ProductView productManagement = new ProductView();
     AlertApp alertApp1 = new AlertApp();
     BannerApp bannerApp= new BannerApp();
     public void mainMenuView (){

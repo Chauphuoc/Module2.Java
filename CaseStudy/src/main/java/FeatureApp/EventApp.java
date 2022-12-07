@@ -1,10 +1,10 @@
 package FeatureApp;
 
 
-import view.ProductManagement;
+import view.ProductView;
 
 public class EventApp {
-    ProductManagement productManagement = new ProductManagement();
+    ProductView productManagement = new ProductView();
     public void returnEvent (String option){
         if (option.equals("Return-sorting-menu")){
             productManagement.sortProduct();

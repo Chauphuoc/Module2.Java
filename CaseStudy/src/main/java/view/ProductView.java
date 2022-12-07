@@ -8,7 +8,7 @@ import Service.ProductService;
 import java.lang.reflect.InaccessibleObjectException;
 import java.util.Scanner;
 
-public class ProductManagement {
+public class ProductView {
     public static Scanner scanner = new Scanner(System.in);
     ProductService productService = new ProductService();
 
@@ -81,6 +81,8 @@ public class ProductManagement {
     }
 
     public void showProductView() {
+        System.out.printf("%10s %20s %20s %10s %10s","ID","Name product","Price","Quantity","Type");
+        System.out.println();
         for (Product product: productService.getProducts()){
             System.out.println(product);
         }
